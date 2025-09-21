@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="username"> 用户名</label>
+        <input type="text" name="username" id="username" minlength="3" maxlength="15" placeholder="用户名"
+            required></input>
+        <label for="age"> 年龄</label>
+        <input type="number" name="age" id="age" placehold="年龄" required></input>
+        <label for="email"> 邮箱</label>
+        <input type="email" name="email" id="email" placehold="邮箱" required></input>
+        <label for="password"> 密码</label>
+        <input type="password" name="password" id="password" placehold="密码" required></input>
+        <label for="resume"> 个人简介</label>
+        <input type="textarea" name="resume" id="resume" placehold="个人简介"></input>
+        <label for="lang"> 语言</label>
+        <select name="lang" id="lang">
+            <option value="Cpp"> Cpp</option>
+            <option value="Java"> Java </option>
+            <option value="Python">Python </option>
+        </select>
+        <button type="submit"> 提交</button>
+    </form>
+</body>
+
+</html>
