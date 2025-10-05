@@ -47,4 +47,9 @@
 .user-card-body-info-reputation-item {
     width: 6px;
     height: 6px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0, 3px, 0, 2px;
+    position: relative;
+    top: -2px;
 }
