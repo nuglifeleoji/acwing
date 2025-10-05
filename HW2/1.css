@@ -1,0 +1,24 @@
+div {
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+div:nth-child(2n+1){
+    background-color:#0000FF;
+}
+div:nth-child(2n){
+    background-color: rgba(255, 0, 0, 0.7);
+}
+div.small-div {
+    width:200px;
+    height: 200px;
+}
+
+div#big-div {
+    width:400px;
+    height: 400px;
+}
+
+div.hover-div:hover{
+    background-color: orange;
+}
