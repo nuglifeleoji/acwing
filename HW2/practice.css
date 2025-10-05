@@ -1,6 +1,7 @@
 .user-card-body-photo>img {
     width: 32px;
     height: 32px;
+    border-radius: 3px;
 }
 
 .user-card {
@@ -35,6 +36,7 @@
 .user-card-body-info-username {
     height: 16px;
     line-height: 16px;
+    margin-bottom: 2px;
 }
 
 .user-card-body-info-reputation {

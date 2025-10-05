@@ -1,0 +1,10 @@
+.user-card {
+    width: 366px;
+    height: 215px;
+    box-shadow: 2px, 2px, 5px, gray;
+    border-radius: 5px;
+}
+
+.user-card-head {
+    background-image: url('https://cdn.acwing.com/media/user/profile/photo/498838_lg_586f795ec7.jpg');
+}
